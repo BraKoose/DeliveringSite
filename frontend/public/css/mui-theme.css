@@ -1,0 +1,391 @@
+body {
+	background-color: #121212 !important;
+	color: #fff !important;
+	line-height: 1.45 !important;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+	"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Lato", "sans-serif";
+	-webkit-font-smoothing: antialiased;
+}
+
+h2, h3 {
+	font-family: "Lato", "sans-serif";
+	font-weight: 600 !important;
+}
+
+#loading {
+	text-align: center !important;
+	margin: 200px auto !important;
+}
+
+iframe {
+	border: 0 !important;
+	display: none !important;
+}
+
+#not-found {
+	text-align: center !important;
+	margin: 100px auto !important;
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/material-ui.woff2') format('woff2');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: #fff !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+	color: #333 !important;
+	border: none !important;
+}
+
+p, label, label span, fieldset span, svg {
+	color: #fff !important;
+}
+
+fieldset {
+	color: #fff !important;
+	border: 1px solid #858585 !important;
+	border-radius: 4px !important;
+}
+
+input {
+	height: 32px !important;
+}
+
+input, textarea {
+	background-color: #121212 !important;
+	color: #fff !important;
+	padding: 8px 15px !important;
+	margin-bottom: 1px !important;
+	border: none !important;
+}
+
+input::placeholder {
+	color: #fff !important;
+}
+
+input[type=checkbox], input[type=radio] {
+	opacity: 0 !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 8px 4px !important;
+}
+
+textarea {
+	padding: 15px !important;
+}
+
+select {
+	background-color: #121212 !important;
+	color: #fff !important;
+	padding: 0px 10px !important;
+	margin: 10px 10px !important;
+}
+
+button {
+	margin: 0px 6px 0px 0px !important;
+	font-weight: 500 !important;
+	font-size: 15px !important;
+}
+
+.fa-user-circle {
+    color: #ff6d00 !important;
+}
+.fa-id-card {
+    color: #ff6d00 !important;
+}
+.fa-envelope {
+    color: #ff6d00 !important;
+}
+.fa-user {
+    color: #ff6d00 !important;
+}
+.fa-lock {
+    color: #ff6d00 !important;
+}
+
+.box-login {
+	box-shadow: 1px 3px 10px #50575b !important;
+	background-color: #252525 !important;
+	color: #fff !important;
+}
+
+.btn {
+	font-weight: 600 !important;
+	border-radius: 6px;
+}
+
+.btn-login {
+    background-color: #ff6d00 !important;
+	color: #fff !important;
+	border: 1px solid #ff9042 !important;
+	box-shadow: 1px 2px 3px 0px #ff852d !important;
+}
+.btn-logout {
+    background-color: #ff6d00 !important;
+    color: #fff !important;
+    border: 1px solid #ff9042 !important;
+    box-shadow: 1px 2px 3px 0px #ff852d !important;
+}
+.btn-success {
+    background-color: #ff6d00 !important;
+    color: #fff !important;
+    border: 1px solid #ff9042 !important;
+    box-shadow: 1px 2px 3px 0px #ff852d !important;
+}
+.btn-default {
+    background-color: #fff !important;
+    color: #ff6d00 !important;
+    border: 1px solid #ff9042 !important;
+    box-shadow: 1px 2px 3px 0px #ff852d !important;
+}
+.btn-primary {
+    background-color: #ff6d00 !important;
+	color: #fff !important;
+	border: 1px solid #ff9042 !important;
+	box-shadow: 1px 2px 3px 0px #ff852d !important;
+}
+
+.tab {
+	font-weight: bold;
+	border-right: none !important;
+	background-color: #808080 !important;
+	color: #121212 !important;
+	cursor: pointer;
+}
+
+.selected {
+	text-align:center;
+	border-top: 3px solid #ff6d00 !important;
+	background-color: #252525 !important;
+    color: #fff !important;
+}
+
+#contents {
+	width: auto !important;
+}
+
+.content{
+    color: #fff !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.MuiInputAdornment-root svg {
+	color: #ff6d00 !important;
+}
+
+.MuiInputLabel-root {
+	color: #cacaca !important;
+}
+
+.MuiPickersCalendarHeader-iconButton {
+	background-color: #252525 !important;
+}
+
+.MuiPickersClockPointer-pointer {
+	background-color: #fff !important;
+}
+
+.MuiPickersClockPointer-thumb {
+	border: 14px solid #4d4d4d !important;
+}
+
+.MuiPickersClockNumber-clockNumber {
+	color: #f2f2f2 !important;
+}
+
+#pagination-menu {
+	overflow-y: auto !important;
+}
+
+.MuiIconButton-label {
+	font-size: 16px;
+	padding: 5px;
+}
+
+.MuiInputBase-input {
+	margin: none !important;
+}
+
+.MuiOutlinedInput-root {
+    background-color: #121212 !important;
+}
+
+.MuiOutlinedInput-multiline {
+	padding: 0px !important;
+}
+
+.MuiDrawer-root .MuiDrawer-paperAnchorLeft {
+	background-color: #ff6d00eb !important;
+	min-width: 60% !important;
+}
+
+.MuiTypography-h6 {
+    font-family: "Lato",sans-serif;
+	font-weight: 600 !important;
+	font-size: 1.3rem !important;
+	line-height: 2 !important;
+	padding-left: 10px !important;
+}
+
+.MuiToolbar-gutters {
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+}
+
+.MuiIconButton-root {
+	padding: 3px !important;
+}
+
+.MuiButtonBase-root path {
+	color: #fff !important;
+}
+
+table th:last-child {
+	text-align: center !important;
+	width: 200px !important;
+}
+
+table th:last-child span {
+	display: inline-block !important;
+}
+
+.MuiTab-root {
+	font-size: 1rem !important;
+}
+
+.MuiButtonBase-root {
+	color: #fff !important;
+	font-weight: 500 !important;
+	text-decoration: none !important;
+}
+
+.Mui-selected {
+	color: #000 !important;
+}
+
+#menu-appbar .MuiMenu-paper {
+    top: 10px !important;
+    right: none !important;
+    left: none !important;
+    overflow-y: auto !important;
+}
+
+.MuiMenu-list .Mui-selected {
+	color: #fff !important;
+	background-color: #252525 !important;
+}
+
+.MuiPaper-root, .MuiTable-root, .MuiTableCell-head {
+	background-color: #121212 !important;
+	color: #fff !important;
+}
+
+.MuiTable-root {
+	width: 98% !important;
+	margin: 0px 15px !important;
+}
+
+.MuiTableCell-head {
+	font-weight: 600 !important;
+	font-size: 1.2rem !important;
+	line-height: 1.5 !important;
+}
+
+.MuiTableCell-head div {
+	color: #fff !important;
+}
+
+.MUIDataTableHeadCell-sortActive-370 {
+	color: #fff !important;
+}
+
+.MuiPaper-rounded {
+	margin: 10px !important;
+}
+
+.MuiTableCell-paddingCheckbox {
+	width: 0px !important;
+}
+
+.MuiTableCell-root {
+	font-size: 1rem !important;
+	padding: 1px !important;
+	position: unset !important;
+	border-bottom: 1px solid #3b3b3b !important;
+}
+
+.MuiTableCell-body {
+	color: #fff !important;
+}
+
+.MuiTablePagination-caption {
+	color: #fff !important;
+}
+
+.MuiSelect-root {
+	color: #fff !important;
+	font-size: 0.75rem !important;
+}
+
+.MuiPopover-paper div, .MuiPopover-paper fieldset {
+	background-color: #252525 !important;
+}
+
+.MuiButton-sizeSmall {
+	padding: 4px 4px !important;
+}
+
+.modal {
+	width: 440px;
+	padding: 16px 32px 24px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	bottom: auto !important;
+	display: block !important;
+	background-color: #252525 !important;
+	color: #fff !important;
+	border: 1px solid #ddd;
+	transform: translate(-50%, -50%);
+}
+
+.modal .MuiButtonBase-root {
+	background-color: #ff6d00 !important;
+	color: #fff !important;
+	border: 1px solid #ff9042 !important;
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px 0px #ff852d !important;
+	font-weight: 500 !important;
+}
+
+@media (max-width: 650px) {
+	.modal {
+		width: 80%;
+	}
+}
